@@ -1,0 +1,9 @@
+package com.p1;
+import com.p2.Q14;
+
+public class Q14Main {
+	public static void main(String[]args) {
+		System.out.println();
+	}
+
+}

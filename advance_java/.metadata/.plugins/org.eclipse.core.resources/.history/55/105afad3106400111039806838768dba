@@ -1,0 +1,24 @@
+package com.kodewala.beans;
+
+public class payment {
+	private String payId;
+
+	public payment() {
+		System.out.println("1. bean instantiated");
+	}
+
+	public String getPayId() {
+		return payId;
+	}
+
+	public void setPayId(String payId) {
+		this.payId = payId;
+		System.out.println("2. Dependency injected");
+	}
+	
+	@Pos
+	public void init() {
+		System.out.println("3. bean intialised");
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.p1;
+
+
+public class Q17Main {
+
+	public static void main(String[] args) {
+		Q17 obj1= new Q7
+		
+	}
+
+}
+class Q17{
+	Q17() {
+		
+	}
+	public int a =5;
+	private int b=10;
+}

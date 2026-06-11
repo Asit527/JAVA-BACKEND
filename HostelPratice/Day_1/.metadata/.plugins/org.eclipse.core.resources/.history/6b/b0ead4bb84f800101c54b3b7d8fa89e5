@@ -1,0 +1,22 @@
+package com.p1;
+
+
+public class Q17Main {
+
+	public static void main(String[] args) {
+		Q17 obj1= new Q17();
+		System.out.println("a value befor changing: ");
+		obj1.a=10;
+		
+		
+	}
+
+}
+class Q17{
+	Q17()
+	{
+		//default constructor
+	}	
+	public int a =5;
+	private int b=10;
+}

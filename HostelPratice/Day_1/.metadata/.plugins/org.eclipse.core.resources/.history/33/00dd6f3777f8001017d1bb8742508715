@@ -1,0 +1,12 @@
+package com.p1;
+
+class Q15Main {
+	public static void main(String[]args) {
+		
+	}
+
+}
+
+class Q15{
+	private int a =1;
+}

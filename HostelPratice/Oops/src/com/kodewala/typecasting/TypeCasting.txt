@@ -1,0 +1,57 @@
+==========================================================
+JAVA POLYMORPHISM & RUNTIME TYPECASTING: 10 CODE CHALLENGES
+==========================================================
+
+GOAL: Write a small program for each scenario in Eclipse.
+NOTE: Pay attention to which errors are COMPILE-TIME vs RUNTIME.
+
+[1]  SUCCESSFUL DOWNCAST: Vehicle v = new Car(); Car c = (Car)v;
+
+[2]  INVALID DOWNCAST: Animal a = new Dog(); Cat c = (Cat)a;
+
+[3]  SAFETY CHECK: Use 'instanceof' to check type before casting.
+
+[4]  INTERFACE CROSS-CAST: Cast from Interface A to Interface B 
+     where the underlying object implements both.
+
+[5]  FIELD HIDING: Check if casting a Child to Parent changes 
+     which 'int x' variable is accessed.
+
+[6]  STATIC METHOD CASTING: Check if (Parent)Child.staticMethod() 
+     calls the Parent or Child version.
+
+[7]  NULL CASTING: Try: String s = (String) null; and check behavior.
+
+[8]  ARRAY COVARIANCE: Assign Integer[] to Object[] and try adding 
+     a Double to it.
+
+[9]  DEEP HIERARCHY: Cast an object from the top of the tree 
+     (Object) down to the bottom-most subclass.
+
+[10] METHOD OVERRIDING: Does ((Parent)child).overriddenMethod() 
+     execute Parent code or Child code?
+
+==========================================================
+
+
+The "Java Polymorphism Mastery" Lab
+
+1.The Basic Round-Trip: Create a Vehicle class and a Car subclass. Upcast a Car to Vehicle, then downcast it back to Car. Access a Car-specific method after the downcast.
+
+2.The Sibling Crash: Create a parent Animal with two children: Dog and Cat. Upcast a Dog to Animal, then try to explicitly downcast that Animal reference into a Cat. Observe the runtime error.
+
+3.The instanceof Shield: Rewrite Question #2, but use an if (ref instanceof Cat) check to prevent the crash.
+
+4.The Interface "Side-Step": Create two unrelated interfaces: GPS and Radio. Create a class SmartCar that implements both. Upcast SmartCar to GPS, then try to cast that GPS reference directly to a Radio reference.
+
+5.The Data Member Mystery: In a Parent and Child class, define a variable int x in both. Upcast Child to Parent and print ref.x. Then downcast and print ref.x. Does the value change? (Hint: Variables don't override!).
+
+6.The Static Shadow: Similar to #5, but use a static method whoAmI(). Cast the object and see if the JVM calls the method based on the Reference Type or the Object Type.
+
+7.The Null Paradox: Create a String reference and set it to null. Try to cast this null to a StringBuilder. Does it throw a ClassCastException?
+
+8.The Array Covariance Trap: Create an Integer[] array. Assign it to an Object[] reference. Try to store a String into the Object[] at index 0. Watch for ArrayStoreException.
+
+9.The Multi-Level Climb: Create Grandparent -> Parent -> Child. Instantiate a Child but store it in a Grandparent reference. Downcast it first to Parent, then to Child.
+
+10.The Method Override Rule: Create a Bird class with a method fly(). Override it in Penguin to print "I cannot fly". Upcast Penguin to Bird and call fly(). Does the cast change the behavior of the overridden method?

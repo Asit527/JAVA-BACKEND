@@ -1,0 +1,24 @@
+package com.p1;
+
+
+public class Q17Main {
+
+	public static void main(String[] args) {
+		Q17 obj1= new Q17();
+		System.out.println("value of a  before changing: "+obj1.a);
+		obj1.a=15;
+		System.out.println("value of a  after changing: "+obj1.a);
+		
+		obj1.b=25;// cant access b because its private and can be access only inside class
+		
+	}
+
+}
+class Q17{
+	Q17()
+	{
+		//default constructor
+	}	
+	public int a =5;
+	private int b=10;
+}

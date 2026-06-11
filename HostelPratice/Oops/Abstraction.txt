@@ -1,0 +1,143 @@
+
+
+1. The Dynamic Logger (Overloading)
+Problem: Build a Logger class that can handle different levels of detail.
+
+Method: log(String message) — Prints [INFO]: message.
+
+Method: log(String level, String message) — Prints [LEVEL]: message (e.g., [ERROR], [WARN]).
+
+Method: log(String message, int errorCode) — Prints [ERROR - Code: 404]: message.
+
+Goal: Practice managing different parameter signatures.
+
+2. The Universal Payment System (Abstraction)
+Problem: Create an abstract system for a checkout counter.
+
+Create an abstract class Payment.
+
+Include a double amount field.
+
+Include an abstract method processPayment().
+
+Create subclasses CreditCard and Crypto.
+
+CreditCard should ask for a card number.
+
+Crypto should ask for a wallet address.
+
+Goal: Hide the "how" (processing logic) and focus on the "what" (making a payment).
+
+3. Smart Home Interface (Interfaces)
+Problem: Design a "Remote Control" system using an interface.
+
+Create an interface Toggleable.
+
+Methods: turnOn(), turnOff().
+
+Implement this interface in LightBulb, Fan, and Television.
+
+In your Main class, create an array of Toggleable objects and use a loop to turn them all on at once.
+
+Goal: Understand how abstraction allows you to treat different objects as the same type.
+
+4. The Shape Hierarchy (Mixed)
+Problem: Calculate properties for different shapes.
+
+Abstract Class: Shape.
+
+Abstract methods: calculateArea() and calculatePerimeter().
+
+Subclasses: Circle (needs radius) and Rectangle (needs length/width).
+
+Challenge: Overload a method draw() in the Shape class:
+
+draw(): Prints "Drawing shape".
+
+draw(String color): Prints "Drawing [color] shape".
+
+5. Employee Payroll (Abstraction + Constructors)
+Problem: Manage different types of employees.
+
+Abstract Class: Employee.
+
+Fields: name, id.
+
+Constructor: Initialize these fields.
+
+Abstract method: calculateSalary().
+
+Subclasses:
+
+FullTimeEmployee: Salary is a fixed monthly rate.
+
+Contractor: Salary is hoursWorked * hourlyRate.
+
+Goal: Practice using constructors in abstract classes (even though they can't be instantiated).
+
+6. The Data Converter (Overloading)
+Problem: Create a class Converter that handles data types.
+
+convert(int i): Returns the integer as a String.
+
+convert(double d): Returns the double rounded to the nearest whole number (int).
+
+convert(String s): Returns the String in all uppercase.
+
+Goal: See how overloading helps with "Type Casting" scenarios.
+
+7. Vehicle Engine (Abstraction)
+Problem: Model how different vehicles start.
+
+Interface: Engine.
+
+Method: start().
+
+Classes: ElectricCar and GasolineCar.
+
+Difference: ElectricCar prints "Silent start...", GasolineCar prints "Vroom! Engine roaring...".
+
+Goal: Use the interface as a "Contract."
+
+8. The "Out of Range" Protector (Overloading)
+Problem: Let's fix that error you had earlier!
+
+Create a method setPhoneNumber().
+
+Version 1: Accepts a long. (Check if it's 10 digits; if not, print "Out of Range").
+
+Version 2: Accepts a String. (Remove dashes and spaces before checking length).
+
+Goal: Use overloading to make your code more "robust" to different inputs.
+
+9. Notification Dispatcher (Abstraction)
+Problem: Send alerts to users.
+
+Abstract Class: Notification.
+
+Fields: content.
+
+Abstract method: send().
+
+Subclasses: EmailNotification, SMSNotification, PushNotification.
+
+Goal: Practice implementation of the same "action" in different ways.
+
+10. The Bank Account (Abstraction & Encapsulation)
+Problem: Secure a banking system.
+
+Abstract Class: BankAccount.
+
+Field: protected double balance.
+
+Concrete methods: deposit(), getBalance().
+
+Abstract method: withdraw(double amount).
+
+Subclasses:
+
+SavingsAccount: Minimum balance must be maintained.
+
+CheckingAccount: Allows a small overdraft.
+
+Goal: Learn how to use protected access with abstraction.

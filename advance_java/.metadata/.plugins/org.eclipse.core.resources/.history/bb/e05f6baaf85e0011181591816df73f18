@@ -1,0 +1,21 @@
+package com.kodewala.beans;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+public class SpringConfig {
+	@Bean("add")
+	public Address createAddress() {
+		Address address = new Address("x", "x", "x", "x");
+		return address;
+		
+		
+	}
+	@Bean("emp")
+	public Employee emp() {
+		Employee emp = new Employee("Asit", "Nayak", createAddress());
+		return emp;
+		
+	}
+
+}

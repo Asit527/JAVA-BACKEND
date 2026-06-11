@@ -1,0 +1,49 @@
+CONTROL FLOW PRACTICE – JAVA (IF, IF-ELSE, LOOPS)
+
+Q1 Given a number, print “Positive” if it is greater than 0.
+
+Q2 Given a number, print “Even” if divisible by 2, otherwise print
+“Odd”.
+
+Q3 Given a number, if it is positive then check whether it is even or
+odd and print accordingly.
+
+Q4 Given marks, print grade: 90+ → A, 70–89 → B, 50–69 → C, below 50 →
+Fail.
+
+Q5 Using a for loop, print numbers from 1 to 10.
+
+Q6 Using a for loop, print numbers from 10 to 1.
+
+Q7 Using a while loop, print numbers from 1 to 5.
+
+Q8 Using a do-while loop, print numbers from 1 to 5.
+
+Q9 Using a do-while loop, print a number at least once even if the
+number is negative.
+
+Q10 Print numbers from 1 to 10 but skip multiples of 3.
+
+Q11 Print numbers from 1 and stop the loop when the number becomes 7.
+
+Q12 Using nested loops, print: 11 12 21 22 31 32
+
+Q13 Using nested loops, print: 1 12 123 1234
+
+Q14 Write an if condition to check if a boolean variable is true (avoid
+assignment mistake).
+
+Q15 Count how many numbers from 1 to 20 are divisible by 4.
+
+Q16 Using a while loop, print numbers from 1 to 3 by increasing the
+counter inside the condition.
+
+Q17 Using a while loop, print numbers from 3 to 0 using decrement.
+
+Q18 From 1 to 3, and inside that from 1 to 3, skip the case when both
+numbers are equal.
+
+Q19 Create an infinite loop and break it when a counter reaches 5.
+
+Q20 Write an if condition that prints two lines only when the condition
+is true (use braces properly).

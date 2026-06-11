@@ -1,0 +1,9 @@
+package com.p1;
+import  com.p2.Q12Inner;
+class Q12Outer {
+	public static void main(String[]args) {
+		System.out.println(a);
+		
+	}
+
+}

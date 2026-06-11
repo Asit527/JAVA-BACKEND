@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+/Users/apple/Desktop/Kodewala/advance_java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1159722651.index
+/sample-project/src/main/resources
+/Users/apple/Desktop/Kodewala/advance_java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2119436883.index
+/simple-webapp/src/main/resources
+/Users/apple/Desktop/Kodewala/advance_java/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2444013056.index
+/web-app-tomcat-install/src/main/java

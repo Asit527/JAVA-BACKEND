@@ -1,0 +1,44 @@
+Java String Practice Questions (Basic Level)
+
+1.  Create a string “HELLO” and print its length.
+
+2.  Create a string “Java” and print each character one by one using a
+    loop.
+
+3.  Count how many characters are in the string “Programming”.
+
+4.  Print the first character and last character of “Computer”.
+
+5.  Count how many vowels are in “Education”.
+
+6.  Count how many consonants are in “Education”.
+
+7.  Count how many uppercase letters are in “JaVa ProGraM”.
+
+8.  Count how many lowercase letters are in “JaVa ProGraM”.
+
+9.  Count how many digits are present in “Java123Code456”.
+
+10. Reverse the string “WORLD” using a loop.
+
+11. Check if the string “LEVEL” is a palindrome.
+
+12. Print all characters at even index positions in “ABCDEFGH”.
+
+13. Print all characters at odd index positions in “ABCDEFGH”.
+
+14. Find how many times the letter ‘a’ appears in “Banana”.
+
+15. Replace every space in “I Love Java” with ‘-’ without using
+    replace().
+
+16. Convert all uppercase letters in “HeLLo” to lowercase manually.
+
+17. Convert all lowercase letters in “wOrLd” to uppercase manually.
+
+18. Remove all vowels from “Beautiful”.
+
+19. Create a new string by copying characters from “Java” one by one
+    into another string.
+
+20. Given “abcabcabc”, count how many times “a” appears.

@@ -1,0 +1,14 @@
+2026-05-05 12:58:33 INFO  com.kodewala.DebitAndCredit -  Sender current balance is 9000
+2026-05-05 12:58:33 INFO  com.kodewala.DebitAndCredit -  Record update... 1
+2026-05-05 12:58:33 INFO  com.kodewala.DebitAndCredit -  Receiver current balance is 11000
+2026-05-05 12:58:33 ERROR com.kodewala.DebitAndCredit -  doing rollback....
+java.sql.SQLException: Parameter index out of range (3 > number of parameters, which is 2).
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.checkBounds(ClientPreparedStatement.java:1480) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.getCoreParameterIndex(ClientPreparedStatement.java:1495) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1767) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.kodewala.DebitAndCredit.doFundTransfer(DebitAndCredit.java:64) [classes/:?]
+	at com.kodewala.Driver.main(Driver.java:8) [classes/:?]

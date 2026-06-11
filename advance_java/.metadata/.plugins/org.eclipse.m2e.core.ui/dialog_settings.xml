@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/apple/Desktop/Kodewala/advance_java/singleton-design-pattern/src/com/kodewa/singleton/IntCalc.java"/>
+			<item value="/Users/apple/Desktop/Kodewala/advance_java/primary-and-qualifier"/>
+			<item value="/Users/apple/Desktop/Kodewala/advance_java/spring-depndency-injection-using-construcutor"/>
+			<item value="/Users/apple/Desktop/Kodewala/advance_java/bean-creation-java-type"/>
+			<item value="/Users/apple/Desktop/Kodewala/advance_java/bean-creation-xml-type"/>
+			<item value="/Users/apple/Desktop/Kodewala/advance_java/bean-creation-xml-type/src/main/resources/beans.xml"/>
+			<item value="/Users/apple/Desktop/Kodewala/advance_java/bean-creation-xml-type1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.kodewala"/>
+			<item value="com.kodewala.primary_and_qualifier"/>
+			<item value="com.kodewala.spring_depndency_injection_using_construcutor"/>
+			<item value="com.kodewala.z"/>
+			<item value="com.kodewala.payment"/>
+			<item value="com.kodewala.bean_creation_xml_type_1"/>
+		</list>
+		<list key="groupId">
+			<item value="com.kodewala"/>
+		</list>
+		<list key="artifactId">
+			<item value="postconstruct-predestroy"/>
+			<item value="bean-scope"/>
+			<item value="primary-and-qualifier-1"/>
+			<item value="primary-and-qualifier"/>
+			<item value="spring-depndency-injection-using-feild-injection"/>
+			<item value="spring-depndency-injection-using-setter"/>
+			<item value="spring-depndency-injection-using-construcutor"/>
+			<item value="spring-depndency-injection"/>
+			<item value="z"/>
+			<item value="bean-creation-annotation-type"/>
+			<item value="bean-creation-java-type-1"/>
+			<item value="bean-creation-java-type"/>
+			<item value="bean-creation-xml-type-1"/>
+			<item value="simple-webapp"/>
+			<item value="bean-creation-xml-type5"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

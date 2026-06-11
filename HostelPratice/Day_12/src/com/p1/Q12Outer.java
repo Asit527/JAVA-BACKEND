@@ -1,0 +1,15 @@
+package com.p1;
+
+class Q12Outer {
+	public static void main(String[]args) {
+		System.out.println(Q12Inner.a);
+		
+	}
+
+}
+
+ class Q12Inner {
+	 static int a =11;
+	
+
+}

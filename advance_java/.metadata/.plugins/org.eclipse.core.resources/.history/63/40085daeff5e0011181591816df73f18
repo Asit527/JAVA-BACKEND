@@ -1,0 +1,26 @@
+package com.kodewala.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+
+public class Employee {
+	
+	@Value("kodewala")
+	private String firstName;
+	@Value("Academy")
+	private String lastName;
+	
+	// field injection ....
+	@Autowired
+	private Address address;
+
+	@Override
+	public String toString() {
+		return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + "]";
+	}
+	
+	
+	
+	
+
+}

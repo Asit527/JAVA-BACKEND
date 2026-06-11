@@ -1,0 +1,16 @@
+package com.kodewala.config;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.kodewala.beans.payment;
+
+@Configuration
+public class SpringConfig {
+	public payment doPayment() {
+		payment pay = new payment();
+		pay.setPayId("RIF1088");
+		return pay;
+	}
+
+	
+}

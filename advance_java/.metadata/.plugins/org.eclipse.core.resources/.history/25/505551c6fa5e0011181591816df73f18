@@ -1,0 +1,5 @@
+package com.kodewala.beans;
+
+public class Employee {
+
+}

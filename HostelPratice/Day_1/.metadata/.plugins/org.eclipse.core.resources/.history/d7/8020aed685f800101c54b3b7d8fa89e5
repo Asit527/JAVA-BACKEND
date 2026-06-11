@@ -1,0 +1,14 @@
+package com.p1;
+
+public class Q18 {
+	private int a =1;
+	Q18(){
+		
+	}
+	public static void main(String[] args) {
+		Q18 q = new 
+		
+
+	}
+
+}

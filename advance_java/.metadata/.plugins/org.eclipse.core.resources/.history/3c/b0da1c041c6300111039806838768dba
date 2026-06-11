@@ -1,0 +1,15 @@
+package com.kodewa.singleton;
+
+public class IntCalc {
+	private static  IntCalc intCalc;
+	
+	private IntCalc() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static IntCalc getInStance() {
+		
+	}
+	
+
+}

@@ -1,0 +1,7 @@
+package com.kodewa.singleton;
+
+public class Driver {
+public static void main(String[] args) {
+	IntCalc.getInStance();
+}
+}

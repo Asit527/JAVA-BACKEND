@@ -1,0 +1,313 @@
+
+JAVA SIB, IIB, CONSTRUCTOR CHAINING – 20 TRACE QUESTIONS
+
+Q1
+
+class A {
+    static { System.out.println("A-SIB"); }
+    { System.out.println("A-IIB"); }
+    A() { System.out.println("A-Cons"); }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        new A();
+        new A();
+    }
+}
+
+
+Q2
+class A {
+    static { System.out.println("A-SIB"); }
+    A() { System.out.println("A-Cons"); }
+}
+
+class B extends A {
+    static { System.out.println("B-SIB"); }
+    B() { System.out.println("B-Cons"); }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        new B();
+    }
+}
+
+
+Q3
+class A {
+    { System.out.println("A-IIB"); }
+    A() { System.out.println("A-Cons"); }
+}
+
+class B extends A {
+    { System.out.println("B-IIB"); }
+    B() { System.out.println("B-Cons"); }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        new B();
+    }
+}
+
+
+Q4
+class A {
+    A() { System.out.println("A"); }
+}
+
+class B extends A {
+    B() {
+        this(10);
+        System.out.println("B-Default");
+    }
+
+    B(int x) {
+        System.out.println("B-Param");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        new B();
+    }
+}
+
+
+Q5
+class A5 {
+    A5() { System.out.println("A"); }
+}
+
+class B5 extends A5 {
+    B5() {
+        super();
+        System.out.println("B");
+    }
+}
+
+
+Q6
+class A6 {
+    static { System.out.println("A-SIB"); }
+}
+
+class B6 extends A6 {
+    static { System.out.println("B-SIB"); }
+}
+
+public class Q6 {
+    public static void main(String[] args) {
+        System.out.println("Main");
+    }
+}
+
+
+Q7
+class A7 {
+    static { System.out.println("A7"); }
+    A7() { System.out.println("A7-Cons"); }
+}
+
+public class Q7 {
+    public static void main(String[] args) {
+        A7 a = null;
+    }
+}
+
+
+Q8
+class A8 {
+    { System.out.println("A-IIB"); }
+    A8() { System.out.println("A-Cons"); }
+}
+
+class B8 extends A8 {
+    B8() { System.out.println("B-Cons"); }
+}
+
+public class Q8 {
+    public static void main(String[] args) {
+        new B8();
+    }
+}
+
+
+Q9
+class A9 {
+    static { System.out.println("A-SIB"); }
+    { System.out.println("A-IIB"); }
+    A9() { System.out.println("A-Cons"); }
+}
+
+class B9 extends A9 {
+    static { System.out.println("B-SIB"); }
+    { System.out.println("B-IIB"); }
+    B9() { System.out.println("B-Cons"); }
+}
+
+public class Q9 {
+    public static void main(String[] args) {
+        new B9();
+    }
+}
+
+
+Q10
+class A10 {
+    A10() { System.out.println("A"); }
+}
+
+class B10 extends A10 {
+    B10() {
+        this(5);
+    }
+    B10(int x) {
+        super();
+        System.out.println("B");
+    }
+}
+
+
+Q11
+class A {
+    A() { System.out.println("A"); }
+}
+
+class B extends A {
+    B() {
+        System.out.println("B");
+    }
+}
+
+
+Q12
+class A {
+    static { System.out.println("A-SIB"); }
+}
+
+public class Test {
+    static { System.out.println("Test-SIB"); }
+
+    public static void main(String[] args) {
+        System.out.println("Main");
+    }
+}
+
+
+Q13
+class A {
+    { System.out.println("IIB-1"); }
+    { System.out.println("IIB-2"); }
+    A() { System.out.println("Cons"); }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        new A();
+    }
+}
+
+
+Q14
+class A {
+    static { System.out.println("SIB-1"); }
+    static { System.out.println("SIB-2"); }
+}
+
+
+Q15
+class A {
+    A() {
+        this(10);
+        System.out.println("Default");
+    }
+    A(int x) {
+        System.out.println("Param");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        new A();
+    }
+}
+
+
+Q16
+class A {
+    A() { System.out.println("A"); }
+}
+
+class B extends A {
+    B() {
+        super();
+        this.print();
+    }
+    void print() {
+        System.out.println("Print");
+    }
+}
+
+
+Q17
+class A17 {
+    static { System.out.println("A"); }
+}
+
+class B17 extends A17 {
+}
+
+public class Q17 {
+    public static void main(String[] args) {
+        new B17();
+    }
+}
+
+
+Q18
+class A18 {
+    { System.out.println("A-IIB"); }
+}
+
+class B18 extends A18 {
+    { System.out.println("B-IIB"); }
+}
+
+public class Q18 {
+    public static void main(String[] args) {
+        new B18();
+    }
+}
+
+
+Q19
+class A {
+    A() { System.out.println("A"); }
+}
+
+class B extends A {
+    B() {
+        this(10);
+        System.out.println("B1");
+    }
+    B(int x) {
+        System.out.println("B2");
+    }
+}
+
+
+Q20
+class A {
+    static { System.out.println("A-SIB"); }
+    { System.out.println("A-IIB"); }
+    A() { System.out.println("A-Cons"); }
+}
+
+public class Test {
+    public static void main(String[] args) throws Exception {
+        Class.forName("A");
+    }
+}

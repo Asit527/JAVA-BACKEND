@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.kodewala.bean_creation_xml_type_1&apos; to &apos;com.kodewala&apos;&#x0A;- Original project: &apos;bean-creation-xml-type-1&apos;&#x0A;- Original element: &apos;bean-creation-xml-type-1/src/main/java/com.kodewala.bean_creation_xml_type_1&apos;&#x0A;- Renamed element: &apos;bean-creation-xml-type-1/src/main/java/com.kodewala&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.kodewala.bean_creation_xml_type_1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kodewala.bean_creation_xml_type_1" name="com.kodewala" qualified="false" references="true" stamp="1778694930912" textual="false" version="1.0"/>
+</session>

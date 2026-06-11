@@ -1,0 +1,169 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Bold;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 -------------------------------------------------------------------------\
+POLYMORPHISM PRACTICE QUESTIONS\
+Focus: Inheritance, Overriding, and Passing Objects\
+-------------------------------------------------------------------------\
+\
+1. THE E-COMMERCE PAYMENT GATEWAY\
+   Scenario: You are building a checkout system.\
+   Task:\
+     a) Create a base class 'Payment' with a method 'pay()' that prints "Processing generic payment".\
+     b) Create two subclasses: 'CreditCard' and 'PayPal' that extend 'Payment'.\
+     c) Override the 'pay()' method in both subclasses to print "Paying with Credit Card" and "Paying with PayPal" respectively.\
+     d) Create a main class with a static method 'processTransaction(Payment p)'.\
+     e) In your main method, instantiate a 'CreditCard' object and pass it to 'processTransaction'. Observe which 'pay()' method is called.\
+\
+2. THE ZOO NOISE MAKER\
+   Scenario: A zoo application needs to handle different animal sounds.\
+   Task:\
+     a) Create a base class 'Animal' with a method 'makeSound()'.\
+     b) Create subclasses 'Lion' (roars) and 'Duck' (quacks) that extend 'Animal'.\
+     c) Create a generic method 'hearSound(Animal a)' that accepts any Animal type and calls its 'makeSound()' method.\
+     d) Demonstrate polymorphism by creating an array/list of 'Animal' references containing both Lions and Ducks, loop through it, and pass each to 'hearSound()'.\
+\
+3. THE EMPLOYEE PAYROLL SYSTEM\
+   Scenario: Handling salaries for different types of workers.\
+   Task:\
+     a) Create a base class 'Employee' with a method 'calculateSalary()'.\
+     b) Create a 'FullTimeEmployee' (fixed salary) and 'Intern' (hourly rate) that extend 'Employee'.\
+     c) Override 'calculateSalary()' to implement specific logic for each.\
+     d) Write a 'PayrollProcessor' class with a method 'printSlip(Employee e)'.\
+     e) Pass a 'FullTimeEmployee' object to 'printSlip' and ensure the correct salary logic is executed.\
+\
+4. THE SMART HOME CONTROLLER\
+   Scenario: A central hub controls various smart devices.\
+   Task:\
+     a) Define a class 'SmartDevice' with a method 'turnOn()'.\
+     b) Define 'SmartBulb' and 'SmartThermostat' extending 'SmartDevice'. Override 'turnOn()' to provide specific startup messages.\
+     c) Create a class 'HomeHub' with a method 'activateDevice(SmartDevice device)'.\
+     d) Verify that passing a 'SmartBulb' to 'activateDevice' turns on the light, not the thermostat.\
+\
+5. THE GEOMETRIC SHAPE DRAWER\
+   Scenario: A drawing application renders different shapes.\
+   Task:\
+     a) Create a class 'Shape' with a method 'draw()'.\
+     b) Create 'Circle' and 'Rectangle' extending 'Shape'. Override 'draw()' to describe the specific shape.\
+     c) Create a 'Canvas' class with a method 'render(Shape s)'.\
+     d) Instantiate a 'Shape' reference holding a 'Circle' object (e.g., Shape s = new Circle();) and pass it to 'render'.\
+\
+6. THE NOTIFICATION SERVICE\
+   Scenario: Sending alerts via different channels.\
+   Task:\
+     a) Create a base class 'Notification' with a method 'send()'.\
+     b) Create subclasses 'EmailNotification' and 'SMSNotification'.\
+     c) Override 'send()' to simulate sending an email vs. an SMS.\
+     d) Create a 'NotificationService' class with a method 'pushAlert(Notification n)'.\
+     e) Demonstrate passing different notification objects to the same 'pushAlert' method.\
+\
+7. THE RPG GAME CHARACTER ATTACK\
+   Scenario: A game where different characters attack differently.\
+   Task:\
+     a) Create a class 'GameCharacter' with a method 'attack()'.\
+     b) Create 'Warrior' (swings sword) and 'Wizard' (casts spell) extending 'GameCharacter'.\
+     c) Create a 'BattleArena' class with a method 'performTurn(GameCharacter c)'.\
+     d) Instantiate a 'Warrior' and a 'Wizard', pass them to 'performTurn', and verify the output.\
+\
+8. THE VEHICLE GARAGE\
+   Scenario: A mechanic shop servicing different vehicles.\
+   Task:\
+     a) Create a class 'Vehicle' with a method 'service()'.\
+     b) Create 'Car' and 'Motorcycle' extending 'Vehicle'.\
+     c) Override 'service()' (e.g., "Changing 4 tires" vs "Lubricating chain").\
+     d) Create a method 'inspect(Vehicle v)' that calls 'v.service()'.\
+     e) Call 'inspect(new Car())' and 'inspect(new Motorcycle())'.\
+\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 9. THE DOCUMENT PRINTER\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Scenario:
+\f2\b0  A central office print server handling different types of digital files. 
+\f1\b Task:
+\f2\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 a) Create a base class 
+\f1\b 'Document'
+\f2\b0  with a method 
+\f1\b 'printContent()'
+\f2\b0  that prints "Printing standard document...".\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 b) Create two subclasses: 
+\f1\b 'PDFDocument'
+\f2\b0  and 
+\f1\b 'WordDocument'
+\f2\b0 .\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 c) Override 
+\f1\b 'printContent()'
+\f2\b0  in 
+\f1\b 'PDFDocument'
+\f2\b0  to print "Displaying PDF with fixed layout" and in 
+\f1\b 'WordDocument'
+\f2\b0  to print "Displaying Word text and editable tables".\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 d) Create a class 
+\f1\b 'Printer'
+\f2\b0  with a method 
+\f1\b 'sendToSpooler(Document doc)'
+\f2\b0 .\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 e) In your main method, create an array of 
+\f1\b 'Document'
+\f2\b0  containing one PDF and one Word file. Loop through the array and pass each to 
+\f1\b 'sendToSpooler'
+\f2\b0 .\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 10. THE BANKING INTEREST CALCULATOR\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Scenario:
+\f2\b0  A bank manages different types of accounts with different interest rules. 
+\f1\b Task:
+\f2\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 a) Create a base class 
+\f1\b 'BankAccount'
+\f2\b0  with a method 
+\f1\b 'applyInterest()'
+\f2\b0 .\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 b) Create subclasses 
+\f1\b 'SavingsAccount'
+\f2\b0  and 
+\f1\b 'CurrentAccount'
+\f2\b0 .\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 c) Override 
+\f1\b 'applyInterest()'
+\f2\b0  so that 
+\f1\b 'SavingsAccount'
+\f2\b0  prints "Adding 5% interest to balance" and 
+\f1\b 'CurrentAccount'
+\f2\b0  prints "No interest applied (Standard checking)".\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 d) Create a static method 
+\f1\b 'performEndOfMonth(BankAccount account)'
+\f2\b0  in your main class.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 e) Instantiate a 
+\f1\b 'SavingsAccount'
+\f2\b0  but store it in a 
+\f1\b 'BankAccount'
+\f2\b0  reference (Upcasting) and pass it to the method to verify the correct interest logic runs.\
+}

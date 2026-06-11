@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.kodewala.arraylist.Iterator.java&apos; to &apos;Iteratorr.java&apos;&#x0A;- Original project: &apos;CollectionFrameWork&apos;&#x0A;- Original element: &apos;com.kodewala.arraylist.Iterator.java&apos;&#x0A;- Renamed element: &apos;com.kodewala.arraylist.Iteratorr.java&apos;" description="Rename compilation unit &apos;Iterator.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.kodewala.arraylist{Iterator.java" name="Iteratorr.java" references="false" stamp="1773327323225" version="1.0"/>
+</session>

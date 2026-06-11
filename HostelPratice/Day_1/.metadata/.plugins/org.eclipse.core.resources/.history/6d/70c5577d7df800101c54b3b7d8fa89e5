@@ -1,0 +1,6 @@
+package com.p2;
+
+public class Q16 {
+int a =5;
+
+}

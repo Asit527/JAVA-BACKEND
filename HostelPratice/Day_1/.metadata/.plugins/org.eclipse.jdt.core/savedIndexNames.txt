@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/Users/apple/Desktop/Desktop - Asit’s MacBook Pro/Kodewala Academy/pratice/day_1/.metadata/.plugins/org.eclipse.jdt.core
+3975370003.index
+1793922395.index
+1865797976.index
+2623037619.index

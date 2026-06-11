@@ -1,0 +1,11 @@
+package com.p1;
+
+public class Q19 {
+	private int a =1;
+	public Q19(){
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+}

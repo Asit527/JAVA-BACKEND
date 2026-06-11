@@ -1,0 +1,58 @@
+1. Count how many even and odd numbers are in an array.
+
+
+2. Find the largest and smallest element in an array.
+
+
+3. Reverse an array in place (no extra array).
+
+
+4. Find the second largest element without sorting. // dought
+
+
+5. Check if the array is a palindrome.
+
+
+6. Remove duplicate elements from an array.
+
+
+7. Count the frequency of each element.
+
+
+8. Rotate the array to the left by 1 position.
+
+
+9. Rotate the array to the right by K positions.
+
+
+10. Move all zeros to the end while keeping order of others.
+
+
+11. Merge two arrays into a third array.
+
+
+12. Find the intersection of two arrays.
+
+
+13. Find the union of two arrays.
+
+
+14. Find the missing number from 1 to N in the array.
+
+
+15. Print all pairs whose sum equals a given number.
+
+
+16. Sort the array without using Arrays.sort().
+
+
+17. Implement linear search.
+
+
+18. Implement binary search (array must be sorted).
+
+
+19. Find the maximum difference where larger element comes after smaller.
+
+
+20. Take index from user and safely print the element using exception handling.

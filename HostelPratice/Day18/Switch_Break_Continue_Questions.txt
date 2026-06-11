@@ -1,0 +1,56 @@
+Q1. Write a program using switch to print the day of the week for
+numbers 1–7.
+
+Q2. Using switch, print the number of days in a month (1–12).
+
+Q3. Create a method checkVowel(char ch) that uses switch to check
+whether a character is a vowel or consonant.
+
+Q4. Using a loop and continue, print numbers from 1 to 20 but skip even
+numbers.
+
+Q5. Using a loop and break, stop printing numbers when the number
+becomes divisible by 7.
+
+Q6. Write a program that keeps asking for input until the user enters 0.
+Use break.
+
+Q7. Using switch, perform basic calculator operations (+, −, *, /) based
+on a character operator.
+
+Q8. Create a method grade(int marks) that uses switch to print grades
+(A, B, C, D, F) based on ranges.
+
+Q9. Using nested loops and continue, print numbers from 1 to 5 but skip
+when i == j.
+
+Q10. Write a program using switch where multiple cases execute the same
+block (fall-through concept).
+
+Q11. Using a loop, print numbers from 1 to 50 but stop entirely when the
+number reaches 25 using break.
+
+Q12. Create a method menu() that shows options (1. Add, 2. Subtract, 3.
+Exit) using switch.
+
+Q13. Write a program to check whether a character is uppercase,
+lowercase, digit, or special character using switch.
+
+Q14. Using continue, print all numbers from 1 to 30 except multiples of
+5.
+
+Q15. Write a program using switch to convert numbers (1–5) into words
+(One, Two, Three, Four, Five).
+
+Q16. Using an infinite loop and break, simulate a login system that
+exits after 3 failed attempts.
+
+Q17. Create a method printMonthName(int month) using switch.
+
+Q18. Using nested loops and break, stop the outer loop when i == 3.
+
+Q19. Write a program using switch to identify traffic light actions
+(Red, Yellow, Green).
+
+Q20. Create a method skipMultiples() that prints numbers from 1 to 40
+but skips multiples of 6 using continue.

@@ -1,0 +1,69 @@
+Constructor Chaining Practice – 20 Questions
+
+1.  Create a class Student with three constructors:
+
+    -   Default constructor
+    -   Constructor with name
+    -   Constructor with name and roll number Use this() to chain them
+        properly.
+
+2.  Create a class Car where the default constructor calls another
+    constructor that sets brand and speed using this().
+
+3.  Create a class Employee where one constructor takes id, another
+    takes id and name, and the third takes id, name, and salary. Ensure
+    proper constructor chaining using this().
+
+4.  Create a class Book where the default constructor assigns values by
+    calling a parameterized constructor using this().
+
+5.  Create a class Mobile where one constructor calls another and prints
+    which constructor is executed to observe the flow.
+
+6.  Create a class Account with three constructors: (accountNumber),
+    (accountNumber, balance), (accountNumber, balance, type). Use
+    constructor chaining to initialize values.
+
+7.  Create a class Person where the default constructor calls another
+    constructor that sets name and age.
+
+8.  Create two classes Product and Electronics where Electronics extends
+    Product. Use super() in Electronics constructor to initialize
+    Product fields.
+
+9.  Create three classes: A, B extends A, C extends B. Use super()
+    chaining and print messages to show constructor execution order.
+
+10. Create a class Laptop where one constructor calls another and
+    validates price before assigning.
+
+11. Create a class Order where the default constructor calls a
+    parameterized constructor with default values.
+
+12. Create a class Rectangle where one constructor takes length, another
+    takes length and breadth. Use this() to set both values.
+
+13. Create a class Bank where constructor chaining is used to set
+    branch, IFSC, and balance.
+
+14. Create a class Teacher where one constructor calls another and
+    displays values using this keyword.
+
+15. Create a parent class Vehicle and child class Bike. Use super() to
+    initialize Vehicle fields and this() inside Bike for its own
+    chaining.   
+
+16. Create a class User with multiple constructors and observe what
+    happens if this() is not written as the first statement.
+
+17. Create a class Company where constructor chaining reduces duplicate
+    code for initializing fields.      //done
+
+18. Create a class Movie where constructors are chained and default
+    rating is assigned. // not done
+
+19. Create a class Product that throws an exception if price > 100000
+    inside a constructor. Use constructor chaining before validation.  // not done
+
+20. Create an array of 5 Order objects using chained constructors and
+    loop to print their values.  // not done

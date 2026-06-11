@@ -1,0 +1,5 @@
+package com.p2;
+
+public class Q14 {
+ public static  int a =5555;
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/apple/Desktop/Kodewala/advance_java/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2138178393.index
+536152866.index
+2444013056.index
+2358233447.index
+3469199212.index
+3009523795.index
+2265625675.index

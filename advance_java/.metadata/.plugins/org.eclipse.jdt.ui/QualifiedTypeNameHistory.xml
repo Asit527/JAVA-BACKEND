@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.kodewala.beans.Account"/>
+    <fullyQualifiedTypeName name="com.kodewala.bean.Account"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.kodewala.bean.Student"/>
+    <fullyQualifiedTypeName name="com.kodewala.payment.pojo.Payment"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.kodewala.pojo.Student"/>
+    <fullyQualifiedTypeName name="com.kodewala.Employee"/>
+    <fullyQualifiedTypeName name="com.kodewala.Address"/>
+    <fullyQualifiedTypeName name="java.applet.AppletContext"/>
+    <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
+    <fullyQualifiedTypeName name="com.kodewala.beans.Address"/>
+    <fullyQualifiedTypeName name="com.kodewala.beans.SpringConfig"/>
+    <fullyQualifiedTypeName name="com.kodewala.beans.Employee"/>
+    <fullyQualifiedTypeName name="com.kodewala.service.EmployeeService"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.kodewala.beans.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="com.kodewala.service.StudentService"/>
+    <fullyQualifiedTypeName name="java.lang.VerifyError"/>
+    <fullyQualifiedTypeName name="com.kodewa.singleton.IntCalc"/>
+    <fullyQualifiedTypeName name="com.kodewala.beans.Payment"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.kodewala.config.SpringConfig"/>
+    <fullyQualifiedTypeName name="com.kodewala.beans.payment"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Profile"/>
+</qualifiedTypeNameHistroy>

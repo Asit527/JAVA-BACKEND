@@ -1,0 +1,66 @@
+JAVA INHERITANCE PRACTICE – QUESTIONS AND SHORT ANSWERS
+
+1.  Create a class Animal with method sound(). Create Dog and Cat that
+    override it. Call sound() using an Animal reference.
+
+     
+
+     Answer: Child’s
+    method runs due to runtime polymorphism (dynamic method dispatch).
+
+2.  Parent class has a private method show(). Child writes its own
+    show(). 
+
+
+
+    Answer: This is not overriding. It is method hiding because
+    private methods are not inherited.
+
+3.  Parent: int x = 10; void display() { System.out.println(x); } Child:
+    int x = 20; Parent p = new Child(); p.display(); 
+
+
+
+    Answer: 10.
+    Variables use reference type, not object type. No polymorphism for
+    variables.
+
+4.  Use super to call parent constructor. Print from both constructors.
+
+
+    Answer order: Parent constructor → Child constructor.
+
+5.  Vehicle → Car → ElectricCar. Add one method in each and call all
+    using ElectricCar object. 
+
+    Answer: Child object inherits behavior
+    from all parent levels through inheritance chain.
+
+6.  Parent p = new Child(); p.run(); 
+
+Answer: Child method runs due to
+    dynamic method dispatch.
+
+7.  Can child access parent private variables? 
+
+
+
+Answer: No. Access using
+    public/protected getters.
+
+
+8.  Parent method marked final. Can child override?
+
+ Answer:
+    No. Compile-time error. final prevents overriding.
+
+
+9.  Static method in parent and child: Parent p = new Child();
+    p.method();
+
+
+     Answer: Parent method runs. Static methods use reference
+    type (method hiding).
+
+10. Why no multiple inheritance with classes? Answer: To avoid Diamond
+    Problem (ambiguity). Interfaces don’t carry state, so allowed.

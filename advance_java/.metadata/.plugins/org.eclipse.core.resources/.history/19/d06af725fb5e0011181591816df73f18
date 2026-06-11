@@ -1,0 +1,12 @@
+package com.kodewala.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Employee {
+	@Value("kodewala")
+	private String firstName;
+	@Value("Academy")
+	private String lastName;
+	
+
+}

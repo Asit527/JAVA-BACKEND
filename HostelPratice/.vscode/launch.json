@@ -1,0 +1,448 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CalculatePrice",
+            "request": "launch",
+            "mainClass": "com.p1.CalculatePrice",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "CalculatePricee",
+            "request": "launch",
+            "mainClass": "com.p1.CalculatePricee",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Customer",
+            "request": "launch",
+            "mainClass": "com.p1.Customer",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Invoice",
+            "request": "launch",
+            "mainClass": "com.p1.Invoice",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Order",
+            "request": "launch",
+            "mainClass": "com.p1.Order",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "com.p1.Q1",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q10",
+            "request": "launch",
+            "mainClass": "com.p1.Q10",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q11Inner",
+            "request": "launch",
+            "mainClass": "com.p1.Q11Inner",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q14",
+            "request": "launch",
+            "mainClass": "com.p1.Q14",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q16",
+            "request": "launch",
+            "mainClass": "com.p1.Q16",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q17",
+            "request": "launch",
+            "mainClass": "com.p1.Q17",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q18",
+            "request": "launch",
+            "mainClass": "com.p1.Q18",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "com.p1.Q2",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "com.p1.Q3",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "com.p1.Q4",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q5",
+            "request": "launch",
+            "mainClass": "com.p1.Q5",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q6",
+            "request": "launch",
+            "mainClass": "com.p1.Q6",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q9",
+            "request": "launch",
+            "mainClass": "com.p1.Q9",
+            "projectName": "Day_13"
+        },
+        {
+            "type": "java",
+            "name": "Q1(1)",
+            "request": "launch",
+            "mainClass": "day11.Q1",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q10(1)",
+            "request": "launch",
+            "mainClass": "day11.Q10",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q11",
+            "request": "launch",
+            "mainClass": "day11.Q11",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q12",
+            "request": "launch",
+            "mainClass": "day11.Q12",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q13",
+            "request": "launch",
+            "mainClass": "day11.Q13",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q14(1)",
+            "request": "launch",
+            "mainClass": "day11.Q14",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q15",
+            "request": "launch",
+            "mainClass": "day11.Q15",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q16(1)",
+            "request": "launch",
+            "mainClass": "day11.Q16",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q17(1)",
+            "request": "launch",
+            "mainClass": "day11.Q17",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q18(1)",
+            "request": "launch",
+            "mainClass": "day11.Q18",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q19",
+            "request": "launch",
+            "mainClass": "day11.Q19",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q2(1)",
+            "request": "launch",
+            "mainClass": "day11.Q2",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q20",
+            "request": "launch",
+            "mainClass": "day11.Q20",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q3(1)",
+            "request": "launch",
+            "mainClass": "day11.Q3",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q4(1)",
+            "request": "launch",
+            "mainClass": "day11.Q4",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q5(1)",
+            "request": "launch",
+            "mainClass": "day11.Q5",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q6(1)",
+            "request": "launch",
+            "mainClass": "day11.Q6",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q7",
+            "request": "launch",
+            "mainClass": "day11.Q7",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q8",
+            "request": "launch",
+            "mainClass": "day11.Q8",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "Q9(1)",
+            "request": "launch",
+            "mainClass": "day11.Q9",
+            "projectName": "day_11"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "com.p1.A",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Aa",
+            "request": "launch",
+            "mainClass": "com.p1.Aa",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q1(2)",
+            "request": "launch",
+            "mainClass": "com.p1.Q1",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q10(2)",
+            "request": "launch",
+            "mainClass": "com.p1.Q10",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q10Outer",
+            "request": "launch",
+            "mainClass": "com.p1.Q10Outer",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q11(1)",
+            "request": "launch",
+            "mainClass": "com.p1.Q11",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q12Outer",
+            "request": "launch",
+            "mainClass": "com.p1.Q12Outer",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q13Outer",
+            "request": "launch",
+            "mainClass": "com.p1.Q13Outer",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q14Main",
+            "request": "launch",
+            "mainClass": "com.p1.Q14Main",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q15Main",
+            "request": "launch",
+            "mainClass": "com.p1.Q15Main",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q16Main",
+            "request": "launch",
+            "mainClass": "com.p1.Q16Main",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q17Main",
+            "request": "launch",
+            "mainClass": "com.p1.Q17Main",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q18(2)",
+            "request": "launch",
+            "mainClass": "com.p1.Q18",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q19(1)",
+            "request": "launch",
+            "mainClass": "com.p1.Q19",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q2(2)",
+            "request": "launch",
+            "mainClass": "com.p1.Q2",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q20(1)",
+            "request": "launch",
+            "mainClass": "com.p1.Q20",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q5(2)",
+            "request": "launch",
+            "mainClass": "com.p1.Q5",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q6Inner",
+            "request": "launch",
+            "mainClass": "com.p1.Q6Inner",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q7Inner",
+            "request": "launch",
+            "mainClass": "com.p1.Q7Inner",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q8Inner",
+            "request": "launch",
+            "mainClass": "com.p1.Q8Inner",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Q9Outer",
+            "request": "launch",
+            "mainClass": "com.p1.Q9Outer",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "com.p2.B",
+            "projectName": "day_12"
+        },
+        {
+            "type": "java",
+            "name": "Bb",
+            "request": "launch",
+            "mainClass": "com.p2.Bb",
+            "projectName": "day_12"
+        }
+    ]
+}

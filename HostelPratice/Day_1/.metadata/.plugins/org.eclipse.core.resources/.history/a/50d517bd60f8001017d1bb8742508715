@@ -1,0 +1,17 @@
+package com.p1;
+
+public class Q10 {
+
+	public static void main(String[] args) {
+		Q10Inner q= new Q10Inner();
+		q.showMessage();
+
+	}
+
+}
+class Q10Inner{
+	private int a =9; 
+	public void showMessage() {
+		System.out.println(a);
+	}
+}

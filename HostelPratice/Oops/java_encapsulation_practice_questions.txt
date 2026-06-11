@@ -1,0 +1,60 @@
+Java Encapsulation Practice Questions (Basic Level)
+
+1)  Create a Student class with private name and age. Provide getters
+    and setters.
+
+2)  In Student, prevent setting age to negative. If negative, don’t
+    store it.
+
+3)  Create a BankAccount with private balance. Allow deposit through a
+    method. No direct access.
+
+4)  In BankAccount, prevent withdrawal if balance is insufficient.
+
+5)  Create a Person with private password. Provide a method
+    checkPassword(String p) instead of a getter.
+
+6)  Create an Employee with private salary. Allow reading salary but not
+    modifying it.
+
+7)  Create a Car with private speed. Increase speed only using
+    accelerate() method.
+
+8)  Create a Mobile with private battery. Decrease battery only using
+    usePhone() method.
+
+9)  Create a Laptop with private isOn. Provide turnOn() and turnOff()
+    methods.
+
+10) Create a Book with private pages. Prevent pages from being set less
+    than 1.
+
+11) Create a Rectangle with private length and width. Provide a method
+    to calculate area.
+
+12) Create a User with private email. Validate that email contains “@”
+    before setting.
+
+13) Create a ATM class with private pin. Provide method verifyPin(int
+    p).
+
+14) Create a Fan with private speedLevel (1–5). Prevent values outside
+    this range.
+
+15) Create a TV with private volume. Increase/decrease volume using
+    methods only.
+
+16) Create a GameCharacter with private health. Reduce health using
+    takeDamage(int d).
+
+17) Create a Company with private employeeCount. Increase count using
+    hireEmployee().
+
+18) Create a FlightTicket with private seatNumber. Once set, it cannot
+    be changed.
+
+19) Create a Wallet with private money. Add money using addMoney()
+    method.
+
+20) Create a Door with private isLocked. Provide lock() and unlock()
+    methods.
